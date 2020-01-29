@@ -1,0 +1,22 @@
+{
+  "name": "nekoos/laravel-generic-resource",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Neder Alfonso Fandiño Andrade",
+      "email": "neafand@gmail.com"
+    }
+  ],
+  "require": {
+    "ext-json": "*",
+    "illuminate/support": "^5.8",
+    "symfony/http-foundation": "~4.3",
+    "illuminate/http": "^5.8",
+    "illuminate/container": "^5.8"
+  },
+  "autoload": {
+    "psr-4": {
+      "NekoOs\\Illuminate\\Http\\Resources\\": "src/Nekoos/Illuminate/Http/Resources/"
+    }
+  }
+}
