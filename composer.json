@@ -7,13 +7,7 @@
       "email": "neafand@gmail.com"
     }
   ],
-  "require": {
-    "ext-json": "*",
-    "illuminate/support": "^5.8",
-    "symfony/http-foundation": "~4.3",
-    "illuminate/http": "^5.8",
-    "illuminate/container": "^5.8"
-  },
+  "require": {},
   "autoload": {
     "psr-4": {
       "NekoOs\\Illuminate\\Http\\Resources\\": "src/Nekoos/Illuminate/Http/Resources/"
